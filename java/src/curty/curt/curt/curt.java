@@ -17,7 +17,7 @@ public final class Curt {
     private Curt () {}
 
     @Overrides
-    public boolean (Object other) {
+    public boolean equals (Object other) {
         return false;
     }
 
