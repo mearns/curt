@@ -17,6 +17,11 @@ public final class Curt {
     private Curt () {}
 
     @Overrides
+    public Curt clone () {
+        throw new UnsupportedOperationException("There can be only 1️⃣");
+    }
+
+    @Overrides
     public boolean equals (Object other) {
         return false;
     }
